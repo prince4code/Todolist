@@ -1,0 +1,26 @@
+{{title}}
+
+<div>
+
+
+  <input type="text" placeholder="enter item" [(ngModel)]="item">
+
+
+  <button (click)="submit()">Submit</button>
+
+
+  <div *ngFor="let todo of list">
+
+
+    {{todo.item}}
+
+  </div>
+
+  <div *ngFor="let hobbie of hobbie">
+
+    {{hobbie}}
+
+
+
+  </div>
+</div>
